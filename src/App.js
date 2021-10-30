@@ -20,7 +20,7 @@ function App() {
     return (
         <div className="App">
             <Header />
-            <Suspense fallback={<h1>Wait Loading.......</h1>}>
+            <Suspense fallback={<h2>Wait Loading.......</h2>}>
                 <Switch>
                     <Redirect from="/todoappv1" to="/todoappv2" />
                     <Route path='/about'>
